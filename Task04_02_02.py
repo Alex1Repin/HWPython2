@@ -4,7 +4,7 @@
 
 import random
 
-def numbers(n: int) -> list: 
+def numbers(n: int): 
     numbers = [random.randint(-n, n)]
     for i in range(1, n):
         numbers.append(random.randint(-n, n))
